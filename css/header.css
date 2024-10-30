@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: gray;
+    padding: 0;
+    height: 70px;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    padding: 0;
+}
+
+.nav-log{
+    grid-column: 2/5;
+    margin-bottom: 8px;
+}
+
+.nav-desc{
+    display: flex;
+    grid-column: 5/12;
+    justify-content: space-between;
+    
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 70%;
+}
+.contact-btn {
+    padding: 5px 9px;
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(246,209,103);
+    border: solid 1px whitesmoke;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.d-item a{
+    padding: 0 ;
+    text-decoration: none;
+    color: rgb(36,64,94);
+}
