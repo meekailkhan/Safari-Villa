@@ -1,0 +1,364 @@
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* mainSection */
+.mainSection1 {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.pexels.com/photos/950058/pexels-photo-950058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.sectin-headign1 h2 {
+    color: rgba(255, 255, 0, 0.734);
+}
+
+
+.sectino-headign1 h1 {
+    font-size: 60px;
+}
+
+.sectino-headign2 {
+    display: flex;
+    font-size: 20px;
+
+}
+
+.sectin-headign2 div {
+    margin-left: 20px;
+}
+
+
+.erro {
+    margin: 0 10px;
+}
+
+.sectin-headign2 {
+    display: flex;
+}
+
+.sectin-headign-item {
+    margin-left: 20px;
+}
+
+
+/* section 3 */
+
+.section3-blok1 {
+    border: 1px solid black;
+    background-color: darkseagreen;
+    /* margin-left: 200px; */
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* section4 */
+
+.section4 {
+    margin-top: 100px;
+}
+
+.section4-blok {
+    background: url("https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.section4-blok-text {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.fa-duotone {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: rgba(0, 128, 0, 0.741);
+}
+
+
+.section4-blok-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    z-index: 1;
+    margin-top: 100px;
+    /* justify-content: center; */
+    justify-items: center;
+    align-items: center;
+
+    margin-top: 150px;
+
+
+}
+
+
+
+/* section5 */
+.section5 {
+    margin-top: 150px;
+}
+
+.section5-blok-btn {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 0, 0.56);
+}
+
+.section5-blok-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #1a1a1a;
+    background-color: #fff600;
+    border: 2px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/* Hover Effect */
+.section5-blok-btn:hover {
+    background-color: #ffd700;
+    transform: scale(1.1);
+}
+
+
+/* section6 */
+
+.section6 {
+    background-color: #f8f8f8;
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.section6-description {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+}
+
+.section6-item {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 0.5rem;
+}
+
+.icon-circle img {
+    width: 40px;
+    height: 40px;
+}
+
+.section6-title {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.scroll-down {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* section7 */
+
+.section7 {
+    background: url("https://w0.peakpx.com/wallpaper/288/931/HD-wallpaper-carbon-wickerwork-texture-black-carbon-texture-wickerwork-textures-black-carbon-background-lines-carbon-background-black-backgrounds-carbon-textures-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+color: white;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.section7-blok1-text {
+    color: white;
+    word-wrap: break-word;
+    /* text-align: center; */
+    /* margin-right: auto; */
+}
+
+.Customer-Card {
+    width: 500px;
+    height: auto;
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 100px
+}
+
+
+.Customer-continer {
+    display: flex;
+}
+
+.Customer-Card p,
+h2 {
+    /* word-wrap: break-word; */
+    margin-top: 30px;
+}
+
+.fa-quote-left {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.customer-img img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.img-container-name {
+    display: flex;
+    margin-top: 20px;
+}
+
+.img-container-name h6{
+    color: blue;
+}
+
+
+.Customer-Card h2{
+font-size: 20px;
+font-weight: 600;
+
+}
+
+@media screen and (max-width: 320px){
+    
+    .section4-blok {
+        height: auto;
+    }
+    
+    .section6 {
+        height: auto;
+    }
+    
+    .section7 {
+        height: auto;
+        width: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 360px) and (max-width:1180px) {
+ 
+    .section4-blok-card {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4-blok {
+        height: auto;
+    }
+    
+    .section6 {
+        height: auto;
+    }
+
+    .section7 {
+        height: auto;
+        
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    .Customer-continer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Customer-Card {
+        margin-top: 10px;
+        width: 300px;
+        height: 420px   ;
+
+    }
+
+}
+
+
+@media screen and (min-width:920px) {
+    .section3-blok1{
+        margin-left: 200px;
+    }
+        
+    }
