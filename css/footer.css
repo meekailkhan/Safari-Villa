@@ -1,0 +1,161 @@
+#footer{
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    padding-bottom: 10rem;
+}
+
+.head-section{
+    background-image: url(../assets/Screenshot\ from\ 2024-10-31\ 11-03-28.png);
+    grid-column: 2/12;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(12,1fr);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+.head-desc{
+    grid-column: 1/9;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 3rem;
+
+}
+.head-desc h3{
+    font-size: 1.3rem;
+    color: rgb(48, 48, 48);
+}
+.head-desc p{
+    font-size: 12px;
+}
+
+.head-btn{
+    grid-column: 10/span 4;
+    margin-right: 0.5rem;
+}
+.chat-btn{
+    padding: 1rem 2rem;
+    background-color: whitesmoke;
+    border: solid 2px gray;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.chat-btn img{
+    margin-right: 5px;
+    margin-bottom: 4px;
+    
+}
+.chat-btn span{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+.form-section{
+    grid-column: 2/12;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    /* background-color: red; */
+
+}
+
+.form-desc{
+    grid-column: 1/6;
+}
+
+
+.main-form{
+    grid-column: 7/span 5;
+    width: 450px;
+    padding-left: 2rem;
+}
+
+.form-btn img{
+    width: 25px;
+    margin-right: 5px;
+}
+.form-btn{
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(246,209,103);
+    border: solid 2px whitesmoke;
+    border-radius: 5px;
+}
+.main-form input{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    margin-right: 2rem;
+    color: rgb(48, 44, 44);
+}
+.main-form input:focus {
+    border: none;
+    border-bottom: solid 1px whitesmoke;
+    outline: none;
+}
+
+
+
+.form-desc p{
+    margin-top: 1rem;
+    color: whitesmoke;
+    font-size: 16px;
+
+}
+
+.main-form h3{
+    font-size: 1.3rem;
+    color: whitesmoke;
+
+}
+
+.main-form p{
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+/* ----------------- */
+.contact-section{
+    color: white;
+    margin-top: 4rem;
+    grid-column: 2/12;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section ul{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.contact-section ul li{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.contact-section h2{
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+.social-icons a {
+    color: #222222;
+    background-color: white;
+    padding: 8px;
+    width: 30px;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
