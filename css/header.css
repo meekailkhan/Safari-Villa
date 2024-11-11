@@ -17,13 +17,13 @@ header{
 }
 
 .nav-log{
-    grid-column: 2/5;
+    grid-column: 2/4;
     margin-bottom: 8px;
 }
 
 .nav-desc{
     display: flex;
-    grid-column: 5/12;
+    grid-column: 4/12;
     justify-content: space-between;
     
 }
