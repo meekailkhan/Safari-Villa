@@ -1,6 +1,7 @@
 #footer{
     background-color: #222222;
     display: grid;
+    margin-top: 10rem;
     grid-template-columns: repeat(12,1fr);
     padding-bottom: 10rem;
 }
